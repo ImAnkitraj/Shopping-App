@@ -10,7 +10,7 @@ return(
   		<div className="main_menu">
   			<nav className="navbar navbar-expand-lg navbar-light main_box">
   				<div className="container">
-  					<a className="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""/></a>
+  					<a className="navbar-brand logo_h" href="/"><Link to ='/'><img src="img/logo.png" alt=""/></Link></a>
   					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
   					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   						<span className="icon-bar"></span>
@@ -33,7 +33,6 @@ return(
   								</ul>
   							</li>
 							<li className=" nav-item"><Link to='/login'><a className='nav-link' href='/shopcategory'>Login</a></Link></li>
-							<li className=" nav-item"><Link to='/signup'><a className='nav-link' href='/shopcategory'>Signup</a></Link></li>
 							<li className=" nav-item"><Link to='/profile'><a className='nav-link' href='/productdetails'>Profile</a></Link></li>
 							<li className=" nav-item"><Link to='/orders'><a className='nav-link' href='/productcheckout'>Orders</a></Link></li>
 							<li className=" nav-item"><Link to='/wishlist'><a className='nav-link' href='/shoppingcart'>Wishlist</a></Link></li>

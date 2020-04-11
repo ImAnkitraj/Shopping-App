@@ -8,7 +8,6 @@ import ProductCheckout from './pages/shop/productCheckout/ProductCheckout';
 import ProductDetails from './pages/shop/productDetails/ProductDetails';
 import Confirmation from './pages/shop/confirmation/Confirmation';
 import Login from './pages/login/Login';
-import Signup from './pages/signup/Signup';
 import Contact from './pages/contact/Contact';
 
 
@@ -31,7 +30,6 @@ function App() {
             <Route path='/confirmation' component={Confirmation}/>
 					  <Route path='/login' component={Login}/>
 					  <Route path='/logout' component={Home}/>
-					  <Route path='/signup' component={Signup}/>
 					  <Route path='/contact' component={Contact}/>
             
             <Footer />
