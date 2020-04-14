@@ -10,7 +10,7 @@ return(
   		<div className="main_menu">
   			<nav className="navbar navbar-expand-lg navbar-light main_box">
   				<div className="container">
-  					<a className="navbar-brand logo_h" href="/"><Link to ='/'><img src="img/logo.png" alt=""/></Link></a>
+  					<a className="navbar-brand logo_h" href="/"><Link to ='/'><img src="img/logosm.png" alt=""/></Link></a>
   					<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
   					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
   						<span className="icon-bar"></span>
