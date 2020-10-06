@@ -1,0 +1,46 @@
+.navbar-container{
+    width: 100vw;
+    height: 60px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .navbar{
+        background-color: yellow;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items:center;
+        flex-wrap: wrap;
+    }
+    .navbar-left{
+        background-color: orange;
+        height: 100%;
+        justify-content: flex-start;
+        flex: 1;
+    }
+    .navbar-right{
+        flex: 2;
+        padding-right: 20px;
+        background-color: orchid;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        .navbar-links-container{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+            .navbar-link-item{
+                text-decoration: none;
+                margin-left: 20px;
+            }
+            .active{
+                color: green;
+            }
+        }
+    }
+}
